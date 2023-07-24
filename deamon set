@@ -1,0 +1,4 @@
+daemon set is used when we need exacly one pod running per node
+  use cases:
+1. to deploy monitoring agents to collect logs (like prometheus)
+  2. resource isolation and distribution: there will be scnearios where specific resources are reserved on each node for a particular task
