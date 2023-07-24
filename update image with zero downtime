@@ -1,0 +1,5 @@
+1. Build and push the updated image to the docker repository
+2. Update the new image name in the spec: containers: image   in the deployment.yaml file
+3. Apply the updated deployment.yaml file using 
+   kubectl apply -f updated_deployment.yaml
+4. check the rolling out update
