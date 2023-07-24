@@ -1,0 +1,18 @@
+7. when the voting pod goes down, then another pod comes up
+
+ 
+
+8. delete worker pod:
+when worker pod is deleted, a new pod came up - logs of all the votes are gone as they are present in that pods, but the actual data is there
+delete db pod:
+when the db pod is terminating, a new db pod is came up
+all the data is deleted - so it is a stateless application
+
+ 
+
+10.
+the worker restart happens after the db pod goes down as its not able to access the db would have caused a code break or ran into an exception
+
+ 
+
+11. the pods restart themselves and result pod comes up
