@@ -1,0 +1,4 @@
+check the replica set and pod is running (kubectl get rs, kubectl get po)
+verify if NodePort service is running (kubectl get svc)
+Ensure that NodePort 8000 used here is not used by other applications
+check the logs of application pod for any errors
